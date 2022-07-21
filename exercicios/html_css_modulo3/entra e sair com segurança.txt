@@ -1,0 +1,19 @@
+COMO UTILIZAR O GITHUB EM OUTRA MAQUINA QUE NÃO SEJA A SUA
+*REQUESITOS
+
+visual studio code
+navegador
+git(instala primeiro)
+github desktop(depois do git)
+
+chegou na outra maquina 
+* abre o github desktop, vai em file, options, accounts, escolhe o primeiro sing in(para o github.com) e faz o login.
+* depois vai em file, options e abre a aba git, vai aparecer preenchido com o meu login e email temporario, clica em salvar e pronto 
+
+QUANDO TERMINAR DE USAR
+* primeiro garante o push de tudo que foi feito 
+* depois fecha tudo 
+* depois vai na aba repositori, remove e manda a pasta para lixeira
+* dipois file, options, accounts e sign out
+* desloga do site
+* por ultimo git, apaga tudo e save e esvazia a lixeira
