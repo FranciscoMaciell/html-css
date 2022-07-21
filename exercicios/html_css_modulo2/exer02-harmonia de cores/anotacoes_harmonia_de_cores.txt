@@ -1,0 +1,67 @@
+HARMONIA DE CORES
+
+CORES PRIMARIAS
+
+   amarelo
+
+   vermelho
+
+   azul
+
+CORES SECUNDÁRIAS
+
+   verde
+
+   laranja
+
+   violeta
+
+CORES TERCIÁRIAS
+   São todas as cores entre as primárias e as secundárias
+
+   amarelo-esverdeado
+
+   amarelo-alaranjado
+
+   vermelho-alaranjado
+
+   vermelho-arroxeado
+
+   azul-arroxeado
+
+   azul-esverdeado
+
+TEMPERATURA DE CORES
+
+CORES QUENTES
+   Do amarelo para o roxo são consideradas cores quentes
+
+CORES FRIAS
+   Do violeta para o verde são consideradas cores frias
+
+OBS: Paleta de cores geralmente de 3 a 5 cores e conbinar as cores com a logo do cliente.
+
+CORES COMPLEMENTARES
+   São aquelas que mais contrasta entre si.
+
+CORES ANALOGAS
+   São as cores parecidas ou vizinhas no circulo cromatíco
+
+EXEMPLO DE PALETA DE COR:
+
+CORES ANALOGAS E COMPLEMENTAR
+   3 cores analogas e uma complementar.
+
+CORES ANALOGAS RELACIONADAS
+   Pega duas cores principais analogas aí pula uma casa 
+
+
+CORES INTERCALADAS
+   Pega uma cor principal intercala uma casa pega outra e intercala outra casa
+   
+CORES TRIADICAS
+   Pega uma cor pricipal intercala três cores, pega outra cor e intercala mais três cores e pega a última
+
+CORES EM QUADRADO
+   Pega uma cor, pula duas casas, pega a segunda cor pula mais duas casas, pega a terceira e pula mais duas e pega a quarta
+

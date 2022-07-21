@@ -1,0 +1,67 @@
+/* --- MODELO DE CAIXA(BOX-LEVELS E INLINE-BOX) --- */
+
+HEIGHT(ALTURA)
+WIDTH(LARGURA)
+
+BORDER(borda)
+PADDING(largura da borda no lado interno)
+MARGIN
+OUTLINE
+
+BOX-LEVEL - quebra linha 
+
+BOX-INLINE - não quebra linha
+
+EX BOX-LEVEL: 
+    <div>BOX-LEVEL</div>
+    <H1>-<H6>
+    <P>
+    <MAIN>(Conteúdo principal)
+    <HEADER>(cabeçalho)
+    <NAV>(menu)
+    <ARTICLE>
+    <ASIDE>
+    <FOOTER>(rodapé)
+    <FORM>
+    <VIDEO>
+
+EX BOX-INLINE:
+    <span>BOX-INLINE</span>
+    <A>
+    <CODE>
+    <SMALL>
+    <STRONG>
+    <EM>
+    <SUP>-<SUB>
+    <LABEL>
+    <BUTTON>
+    <INPUT>
+    <SELECT>
+
+/* --- BOX MODEL NA PRÁTICA --- */
+
+CONFIGURAÇÃO DO PADDING SÃO 4:
+
+padding-top:
+padding-right(direita):
+padding-bottom(em baixo):
+padding-left(esquerda):
+
+/* --- O QUE PODE SER SIMPLIFICADO --- */
+
+BORDER: 10px(border-width) solid(border-style) green(border-color);
+
+PADDING: 10px(padding-top) 10px(padding-right) 10px(padding-bottom) 10px(padding-left);
+OBD: Se as medidas todas forem iguais basta colocar apenas padding: 10px;
+
+MARGIN: margin: 10px;
+OBS: Tambem pode configurar as laterais como auto assim ficará centralizado
+
+OUTLINE: 5px dashed salmon(cor);
+
+BOX-SHADOW: 1px(deslocamento horizontal) 1px(deslocamento vertical) 1px(espalhamento) cor;
+
+
+
+
+

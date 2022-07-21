@@ -1,0 +1,43 @@
+/ --- USANDO O GOOGLE FONTS --- */
+OBS: No final do font-family sempre utilizar sans-serif
+
+OBS: PARA CADA FONT IMPORTADA TERÁ SEU ARRÓBA E TEM QUE FICAR EM BAIXO DA LINHA STYLE E FORA DE UM SELETOR
+
+OBS: USAR DE 3 A 4 FAMÍLIAS DE FONTES NO SITE NO MAXÍMO
+
+
+/* --- FONTES EXTERNAS --- */
+
+SITE: dafont.com
+
+CONFIGURAÇÃO DO FONT-FACE
+
+@font-face{
+    font-family: 'nome que vou colocar no estilo'
+    src: url: ('endereço de arquivo') format('otf, ttf ...')
+
+/* 
+tipos de format()
+*opentype(otf)
+*truetype(ttf)
+*embedded-opentype
+*truetype-aat(Apple Advanced Typography)
+*svg
+*/
+
+/* --- PARA DETECTAR UMA FONTE --- */
+
+Extensão do google chrome FONTS NINJA
+
+/* --- PARA DETECTAR FONTS DENTRO DE UMA IMAGEM --- */
+
+SITE: fontsquirrel
+
+SITE: Myfonts.com
+
+/* --- ALINHAMENTOS DE TESTO --- */
+
+text-align: left(esquerda);
+text-align: right(direita);
+text-align: center;
+text-align: justify;

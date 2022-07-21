@@ -1,0 +1,15 @@
+CRIANDO EFEITO DEGRADÊ
+
+CONFIGURAÇÃO GLOBAL
+
+*{
+    height: 100%;
+ }
+
+CONFIGURAÇÕES PARA O LINEAR-GRADIENTE OU RADIAL-GRADIENTE
+BACKGROUND-IMAGE: LINEAR-GRADIENTE(!)
+
+! = to right, codigo da cor, codigo da cor
+! = to top, ...
+! = to bottom, ...
+! = 45deg, ... 

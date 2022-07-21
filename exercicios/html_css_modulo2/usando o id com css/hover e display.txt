@@ -1,0 +1,31 @@
+SELETORES PERSONALIZADOS
+
+/* --- USANDO O ID COM CSS --- */
+Tudo que é ID em HTML em CSS é cerquilha(#)
+
+Tudo que é class em HTML em CSS é ponto(.)
+
+/* --- DIFERENÇAS ENTRE ID E CLASS --- */
+
+no ID so pode criar apenas um elemento por página
+
+no class pode-se criar varios elementos na mesma página
+
+/* --- PSEUDO-CLASS --- */
+
+height(altura)
+width(largura)
+
+pseudo-classe no CSS utiliza-se dois pontos(:)
+
+PSEUDO ELEMENTOS no CSS utiliza-se quatro pontos(::)
+
+ex: a::after{caracteres especiais}
+
+SIMBOLOGIAS
+
+#  = id
+.  = class
+:  = pseudo
+:: = pseudo-elemento
+>  = chieldren 

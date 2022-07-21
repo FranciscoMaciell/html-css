@@ -1,0 +1,52 @@
+/* --- PRIMEIROS PASSOS EM TIPOGRAFIA --- */
+
+ANATOMIA DO TIPO(LETRA)
+Fonte mais usada:
+    Times New Roman
+
+ANATOMIA DO TIPO(Tamanho das letras na construção da fonte)
+Altura das maiusculas
+
+*Ascendente: Vazamento para parte superior da linha demarcada pela altura
+*Descendente: Vazamento para parte inferior da linha demarcada 
+
+Altura-x
+
+Corpo:
+     É somatoria de tudo.
+
+OBS: Para impressão dar preferência para fontes serifadas e na tela dar preferência para fontes não serifadas.
+
+/* --- TAMANHO DE FONTE E SUAS MEDIDAS --- */
+
+	Medidas Absolutas: 
+		cm, mm, in(polegada), pt(ponto), pc(pyca)
+
+	Medidas Relativas:
+		em(relativo a altura das maiusculas), ex(relativo a altura x), rem(tipo em), vw(relacionada a view width(largura da tela)), vh(relacionada a altura da view port(altura da tela))
+
+OBS: PARA A CONFIGURAÇÃO DO FONTE-SIZE RECOMENDA-SE O USO DE PX E RM 
+
+16px normalmente é 1em;
+
+GUANABARA recomenda utilizar o 'em'
+
+TAMANHO PADRÂO NO FONTE-SIZE 16px
+
+
+/* --- PESO, ESTILO E SHORTHAND FONT --- */
+
+weight - peso
+width  - largura
+height - altura
+
+*font-weight(fonte com peso, fonte para negrito): lighter, normal, bold, bolder e a variação numerica
+*font-style(estilo de fonte, fonte para italico): ITALICO, NEGRITO, NORMAL
+*text-decoration(para sublinhado): underline,
+*shorthand(dar uma mãozinha): Vai anotar tudo na ordem que está no seletor
+
+ORDEM CORRETA
+	font style -> font-weight -> font-size -> font-family
+
+
+

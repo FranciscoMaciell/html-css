@@ -1,0 +1,19 @@
+PRIMEIROS PASSOS EM TIPOGRAFIA
+
+ANATOMIA DO TIPO(LETRA)
+Fonte mais usada:
+    Times New Roman
+
+ANATOMIA DO TIPO(Tamanho das letras na construção da fonte)
+Altura das maiusculas
+
+*Ascendente: Vazamento para parte superior da linha demarcada pela altura
+*Descendente: Vazamento para parte inferior da linha demarcada 
+
+Altura-x
+
+Corpo:
+     É somatoria de tudo.
+
+OBS: Para impressão dar preferência para fontes serifadas e na tela dar preferência para fontes não serifadas.
+
