@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 700px;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: rgb(153, 153, 153);
+    color: white;
+    font-size: 1.5em;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+td{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+th.med{
+    background-color: rgb(153, 153, 153);
+    color: white;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+td.medi{
+    background-color: rgb(153, 153, 153);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.tet{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
