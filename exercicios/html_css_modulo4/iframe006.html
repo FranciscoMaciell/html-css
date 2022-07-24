@@ -5,13 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adicionando conteudos</title>
+    <style>
+        body{
+            background-color: rgb(106, 230, 112);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        section{
+            background-color: white;
+            max-width: 800px;
+            min-width: 350px;
+            margin: -20px auto 0px auto;
+        }
+
+        h1,h2{
+            padding: 10px;
+        }
+
+        p{
+            padding: 10px;
+        }
+
+        .video{
+            background-color: rgb(4, 77, 13);
+            border: 1px solid black;
+            box-shadow: 4px 5px 10px black;
+            padding: 10px;
+            margin: 0px 5px 0px 5px;
+            padding-bottom: 57%;
+            position: relative;
+        }
+
+        .video>iframe{
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            width: 90%;
+            height: 90%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Conteúdos dentro de iframes</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas magnam, accusantium corporis libero doloribus maxime eum laboriosam modi ut, autem dicta. Blanditiis vitae pariatur eum, recusandae quae delectus vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sint velit officia sed vero animi quaerat beatae ex consectetur, modi aperiam pariatur laudantium dignissimos. Ullam hic rem soluta veritatis provident?</p>
-    <h2>Videos</h2>
-    <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kZh6pXjGs70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <section>
+        <h1>Conteúdos dentro de iframes</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quas magnam, accusantium corporis libero doloribus maxime eum laboriosam modi ut, autem dicta. Blanditiis vitae pariatur eum, recusandae quae delectus vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sint velit officia sed vero animi quaerat beatae ex consectetur, modi aperiam pariatur laudantium dignissimos. Ullam hic rem soluta veritatis provident?</p>
+        <h2>Videos</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kZh6pXjGs70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae nulla fuga, provident veritatis praesentium, eum sapiente quisquam molestias possimus debitis voluptate quae aliquid quasi deserunt, perspiciatis pariatur numquam voluptatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet cupiditate aperiam quibusdam natus modi suscipit exercitationem quos ea corporis eligendi? Cupiditate ullam provident sequi eum sit necessitatibus ipsa harum illo!</p>
+    </section>
 </body>
 </html>
