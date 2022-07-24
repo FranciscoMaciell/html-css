@@ -1,0 +1,17 @@
+PROBLEMAS DE SEGURANÇA COM O <iframe>
+
+TAMANHO PADRÃO DO IFRAME 300 X 150
+
+CONFIGURAÇÃO DE SEGURANÇA PARA O IFRAME NO MAXIMO
+
+sandbox="sandbox";
+referrerpolicy="no-referrer-when-downgrade"
+referrerpolicy="no-referrer"
+
+
+CONFIGURAÇÃO PARA PERMITIR SITES DE MESMA ORIGEM
+
+sandbox="allow-same-origin"     permissão da mesma origem
+        "allow-forms"           permissão de formularios
+        "allow-script"          permissão de script
+referrerpolicy="no-referrer"
