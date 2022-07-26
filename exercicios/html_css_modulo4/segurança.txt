@@ -15,3 +15,27 @@ sandbox="allow-same-origin"     permissão da mesma origem
         "allow-forms"           permissão de formularios
         "allow-script"          permissão de script
 referrerpolicy="no-referrer"
+
+--- FOUMULARIOS---
+
+DESLIGAR CAIXA DE SUGESTÕES(DENTRO DO FORM)
+
+autocomplete:off;
+
+TUDO ISSO DENTRO DO INPUT
+
+TORNAR CAMPO OBRIGATORIO
+
+required:
+
+TAMANHO MAXIMO DO USUÁRIO
+
+maxlength:
+
+TAMANHO MINIMO DO USUÁRIO
+
+minlength:
+
+TAMANHO DA CAIXA POR LETRAS
+
+
