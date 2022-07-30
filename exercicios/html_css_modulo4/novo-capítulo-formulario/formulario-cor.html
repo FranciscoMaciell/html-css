@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cor</title>
+    <title>formulario com foto</title>
 </head>
 <body>
-    <h1>Exemplo de Formulário</h1>
+    <h1>Exemplo de formulario com caixa de seleção de cores</h1>
     <form action="cadastro.php" method="post">
         <p>
-            <label for="icor">Cor</label>
+            <label for="icor">Cor: </label>
             <input type="color" name="cor" id="icor" value="#00ff00">
         </p>
         <p>
             <label for="inivel">Nivel de satisfação</label>
-            <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+            <input type="range" name="nivel" id="icor" min="1" max="10" value="2">
         </p>
         <p>
-            <label for="ifoto">Foto do Perfil</label>
+            <label for="ifoto">Imagem</label>
             <input type="file" name="foto" id="ifoto">
         </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+
     </form>
 </body>
 </html>

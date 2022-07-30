@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <h1>select</h1>
+    <form action="cadastro.php" method="post">
+        <select name="estado" id="iest">
+            <option value="" selected >-- Selecionar -- </option>
+            <optgroup label="Região Suldeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+            <optgroup label="Região Nordeste">
+                <option value="CE">Ceára</option>
+                <option value="RN">Rio Grande dio Norte</option>
+                <option value="PE">Pernambuco</option>
+            </optgroup>
+        </select>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="listProf">
+            <datalist id="listProf">
+                <option value="ADM">Administração</option>
+                <option value="CONT">Contador</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Menssagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10">Sua Menssagem...</textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
